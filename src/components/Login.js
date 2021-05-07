@@ -8,6 +8,7 @@ const Login = () => {
         <a href="/">
           <img src="/img/login-logo.svg" alt="login_logo" />
         </a>
+        <p>Login page for LinkedIn</p>
       </Nav>
     </Container>
   );
