@@ -10,6 +10,7 @@ function App() {
           <Route exact path="/">
             <Login />
           </Route>
+          <Route path="/sub"></Route>
         </Switch>
       </Router>
     </div>
