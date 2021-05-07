@@ -4,6 +4,10 @@
 
 > The platform styling is with styled-components with Redux handling the global states & google authentication along with firebase hosting.
 
+## Components
+
+- Login
+
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
