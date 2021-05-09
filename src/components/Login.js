@@ -67,7 +67,18 @@ const Join = styled.a`
   }
 `;
 
-const SignIn = styled.a``;
+const SignIn = styled.a`
+  box-shadow: inset 0 0 0 1px #0a66c2;
+  color: #0a66c2;
+  border-radius: 24px;
+  transition-duration: 167ms;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  padding: 10px 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+`;
 
 const Section = styled.section``;
 
