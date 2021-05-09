@@ -10,8 +10,15 @@ const Login = () => {
         </a>
         <div>
           <Join>Join now</Join>
+          <SignIn>Sign in</SignIn>
         </div>
       </Nav>
+      <Section>
+        <Hero>
+          <h1>Welcome to your professional community</h1>
+          <img src="/img/login-hero.svg" alt="login logo" />
+        </Hero>
+      </Section>
     </Container>
   );
 };
@@ -48,3 +55,9 @@ const Join = styled.a`
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
 `;
+
+const SignIn = styled.a``;
+
+const Section = styled.section``;
+
+const Hero = styled.div``;
