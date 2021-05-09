@@ -18,6 +18,12 @@ const Login = () => {
           <h1>Welcome to your professional community</h1>
           <img src="/img/login-hero.svg" alt="login logo" />
         </Hero>
+        <Form>
+          <Google>
+            <img src="/img/google.svg" alt="google logo" />
+            Sign in with Google
+          </Google>
+        </Form>
       </Section>
     </Container>
   );
@@ -61,3 +67,7 @@ const SignIn = styled.a``;
 const Section = styled.section``;
 
 const Hero = styled.div``;
+
+const Form = styled.div``;
+
+const Google = styled.button``;
