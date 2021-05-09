@@ -60,6 +60,11 @@ const Join = styled.a`
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+  }
 `;
 
 const SignIn = styled.a``;
