@@ -8,7 +8,9 @@ const Login = () => {
         <a href="/">
           <img src="/img/login-logo.svg" alt="login_logo" />
         </a>
-        
+        <div>
+          <Join>Join now</Join>
+        </div>
       </Nav>
     </Container>
   );
@@ -36,4 +38,13 @@ const Nav = styled.nav`
       padding: 0 5px;
     }
   }
+`;
+
+const Join = styled.a`
+  font-size: 16px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 12px;
 `;
