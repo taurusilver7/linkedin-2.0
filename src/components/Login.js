@@ -78,6 +78,11 @@ const SignIn = styled.a`
   padding: 10px 24px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
+  &:hover {
+    background-color: rgba(112, 181, 249, 0.15);
+    color: #0a66c2;
+    text-decoration: none;
+  }
 `;
 
 const Section = styled.section``;
