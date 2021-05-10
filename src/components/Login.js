@@ -57,7 +57,7 @@ const Join = styled.a`
   font-size: 16px;
   padding: 10px 12px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 24px;
   color: rgba(0, 0, 0, 0.6);
   margin-right: 12px;
   &:hover {
