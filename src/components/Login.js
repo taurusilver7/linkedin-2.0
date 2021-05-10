@@ -85,7 +85,24 @@ const SignIn = styled.a`
   }
 `;
 
-const Section = styled.section``;
+const Section = styled.section`
+  display: flex;
+  align-content: start;
+  min-height: 700px;
+  padding-bottom: 138px;
+  padding-top: 40px;
+  padding: 60px 0;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1128px;
+  align-items: center;
+  margin: auto;
+  @media (max-width: 768) {
+    margin: auto;
+    min-height: 0px;
+  }
+`;
 
 const Hero = styled.div``;
 
