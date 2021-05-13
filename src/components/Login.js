@@ -149,4 +149,7 @@ const Google = styled.button`
   display: flex;
   justify-content: center;
   background-color: #fff;
+  align-items: center;
+  height: 56px;
+  width: 100%;
 `;
