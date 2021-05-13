@@ -158,4 +158,6 @@ const Google = styled.button`
   vertical-align: middle;
   z-index: 0;
   transition-duration: 167ms;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
 `;
