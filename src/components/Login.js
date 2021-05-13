@@ -152,4 +152,5 @@ const Google = styled.button`
   align-items: center;
   height: 56px;
   width: 100%;
+  border-radius: 28px;
 `;
