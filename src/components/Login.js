@@ -137,6 +137,16 @@ const Hero = styled.div`
   }
 `;
 
-const Form = styled.div``;
+const Form = styled.div`
+  margin-top: 100px;
+  width: 408px;
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
 
-const Google = styled.button``;
+const Google = styled.button`
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+`;
